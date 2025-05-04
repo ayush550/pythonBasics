@@ -1,0 +1,24 @@
+In python a single variable's type can change throughout the code. This is called dynamic typing.
+Eg: the following code runs without any errors:
+
+variable = 10          #int type
+variable = "Hello"    #string type
+variable = [1, 2, 3]  #list type
+
+Not all languages support dynamic typing e.g: In C++ or Java this code will give an error: incompatible types
+
+int variable = 10;
+variable = "Hello";  //Error: incompatible types
+
+Exercise:
+variable = 10      
+print(type(variable))
+variable = "Hello"   
+print(type(variable))
+variable = [1, 2, 3]
+print(type(variable))
+
+output:
+<class 'int'>
+<class 'str'>
+<class 'list'>
