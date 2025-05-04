@@ -1,0 +1,35 @@
+In python we can assign mutliple variables in a single line. Just by separating the variables using comma.
+
+msg1, msg2 = "Hello", "World"
+
+this is equivalent to:
+msg1 = "Hello"
+msg2 = "World"
+
+Exercise:
+msg1, msg2 = "World", "Hello"
+msg3, msg4, msg5 = "Name", "Is", "My"
+
+Expected Output:
+Hello
+World
+My
+Name
+Is
+
+Solution:
+msg1, msg2 = msg2, msg1
+msg3, msg4, msg5 = msg5, msg3, msg4
+
+print(msg1)
+print(msg2)
+print(msg3)
+print(msg4)
+print(msg5)
+
+Output:
+Hello
+World
+My
+Name
+Is
