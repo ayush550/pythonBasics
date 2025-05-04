@@ -1,0 +1,9 @@
+message = "The first message"
+print(message) 
+
+Output: 
+The first message
+
+Variables vs Raw String
+If we print("message") this would print string "message" in the output instead of our desired result which is "The first message". 
+Thus, message here represents a variable name, which contains our message to be printed.
