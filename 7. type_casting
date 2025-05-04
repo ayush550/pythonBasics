@@ -1,0 +1,22 @@
+A variable in python can be converted to different type using type casting. Eg:
+variable = 10.9
+print(int(variable))
+
+output:
+10
+
+Exercise:
+pi = 3.141592653589793
+square_root_8 = 2.8284271247461903
+
+expected output:
+3
+2
+
+solution:
+print(int(pi))
+print(int(square_root_8))
+
+output:
+3
+2
