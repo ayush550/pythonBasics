@@ -1,0 +1,9 @@
+variables are like containers to store some values in it
+values can be of any type such as strings, integer or boolean
+
+# Naming Convention
+There are several naming conventions such as:
+1. Camel Case: The first letter of each word is capitalized except for the first word. Eg: myVariableName
+2. Snake Case: Words are separated by underscores. Eg: my_variable_name
+3. Pascal Case: The first letter of each word is capitalized. Eg: MyVariableName
+In python, we generally use snake case. 
