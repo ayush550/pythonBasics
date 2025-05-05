@@ -1,0 +1,17 @@
+Parameters:
+We can pass in variables inside a function which is known as parameters. we put variables and strings inside of parentheses.
+
+E.g:
+def greet(name):
+  msg = "Hello, " + name
+  print(msg)
+  
+greet("Ayush")
+
+output:
+Hello, Ayush
+
+
+Parameter vs Argument:
+A parameter is a variable declared within a function's definition, serving as a placeholder for the data the function will process. 
+An argument is the actual value passed to a function when it's called, fulfilling the role of a parameter within the function's execution.
