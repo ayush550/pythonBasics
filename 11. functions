@@ -1,0 +1,46 @@
+Function: 
+Functions are block of code that perform a specific function, these block of code i.e. function can be used again and again.
+Indentation matters in python while writing function.
+
+E.g:
+def greet():
+  print("Hello, World!")
+
+def say_goodbye():
+  print("Good bye, till we meet next time!")
+
+greet()
+say_goodbye()
+
+Output:
+Hello, World!
+Good bye, till we meet next time!
+
+
+Function Declaration:
+Just like variables needs to be defined before we can use them. Similarly the function needs to be defined before we can use them.
+
+
+E.g:
+print_number(5)
+
+def print_number(n):
+  print(n)
+
+Output:
+ERROR!
+Traceback (most recent call last):
+  File "<main.py>", line 1, in <module>
+NameError: name 'print_number' is not defined
+
+
+E.g:
+def print_number(n):
+  print(n)
+  
+print_number(5)
+
+Output:
+5
+
+
