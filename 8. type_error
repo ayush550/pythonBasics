@@ -1,0 +1,39 @@
+Type Errors: we cann't convert every type into some other type. 
+E.g: 
+variable = "hello"
+print(variable)
+print(type(variable))
+
+output:
+hello
+<class 'str'>
+
+E.g:
+variable = "hello"
+print(variable)
+print(type(variable))
+
+variable = int(variable)
+
+output:
+hello
+<class 'str'>
+ERROR!
+Traceback (most recent call last):
+  File "<main.py>", line 6, in <module>
+ValueError: invalid literal for int() with base 10: 'hello'
+
+E.g:
+variable = "10"
+print(variable)
+print(type(variable))
+
+variable = int(variable)
+print(variable)
+print(type(variable))
+
+output:
+10
+<class 'str'>
+10
+<class 'int'>
