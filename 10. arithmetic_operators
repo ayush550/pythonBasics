@@ -1,0 +1,8 @@
+x, y -> both are integers
+Addition (+): adds two operands -> Product is int
+Subtraction (-): subtracts two operands -> Product is int
+Multiplication (*): multiplies two operands -> Product is int
+Division (/) (float): divides the first operand by the second -> Product is float -> 7/2 = 3.5
+Floor Division (//): divides the first operand by the second -> 7//2 = 3
+Modulus (%): returns the remainder when the first operand is divided by the second -> 7%3 = 1
+Power (**): Returns first raised to power second -> 2**3 = 8
