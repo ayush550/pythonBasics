@@ -1,0 +1,40 @@
+e.g:
+def add_one(n):
+  n += 1
+  print(n)  
+
+n = 10
+add_one(n)
+print(n)  
+
+Output:
+11
+10
+
+Global vs Local Scope:
+E.g:
+def declare_variable() -> None:
+  inside_function_only = 10
+  return
+
+declare_variable()  
+print(inside_function_only)  # This will raise a NameError
+
+In the code above, the variable inside_function_only is declared inside the function declare_variable.
+This variable has a local scope and is only accessible within the function. Attempting to access it 
+outside the function will result in a NameError.
+
+E.g:
+n = 10
+
+def print_global_variable() -> None:
+  print(n)
+
+print_global_variable()
+
+Output:
+10
+
+In the code above, the variable n is declared outside the function print_global_variable. This variable
+has a global scope, since it's not within a function, and can be accessed from anywhere in the program,
+including inside functions.
