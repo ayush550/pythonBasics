@@ -1,0 +1,25 @@
+We can return the result from a function, this allows to use the result of a function in other parts of the code, outside the original function.
+
+E.g: 
+def add(x, y):
+  return x+y
+
+result = add(2, 5)
+print(result)
+
+Output:
+7
+
+
+E.g.2:
+def product(x, y):
+  return x*y
+
+print(product(3, 2))
+print(product(7, 8))
+print(product(4, 7))
+
+Output:
+6
+56
+28
