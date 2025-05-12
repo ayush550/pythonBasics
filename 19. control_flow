@@ -1,0 +1,26 @@
+Control flow refers to the order in which statements within a program execute.
+
+Control Flow statement types:
+1) conditional statement : if, if-else
+2) looping statements : while loop, for loop
+3) jump statement : break, continue, pass
+
+# jump statement
+1. break: Exits the loop immediately
+2. continue: skips the remaining code inside the loop for the current iteration and moves to the next iteration.
+3. pass: acts as a placeholder and does nothing. We cannot have empty loops, so we can use pass to avoid errors.
+
+e.g:
+for i in range(1, 10):
+  pass
+
+e.g:
+for i in range(1, 8):
+  if i == 3:
+    continue
+  elif i == 6:
+    break
+  print(i, end = " ")
+
+Output:
+1 2 4 5
