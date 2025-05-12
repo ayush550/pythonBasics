@@ -1,0 +1,17 @@
+we can also iterate backward using for loops and here are two ways to do this.
+Task:
+print 5 4 3 2 1
+
+way 1:
+i = 5
+for i in range(5, 0, -1):
+  print(i, end = " ")
+Output:
+5 4 3 2 1
+
+way 2: (using reversed() function)
+i = 5
+for i in reversed(range(1, 6)):
+  print(i, end=" ")
+Output:
+5 4 3 2 1
